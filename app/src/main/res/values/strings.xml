@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QR-Code_kotlin_android</string>
+    <string name="app_submit">Submit</string>
+    <string name="app_genrate">Create QR/Bar Code</string>
+    <string name="from_camera">from camera</string>
+    <string name="from_gallery">from gallery</string>
+    <string name="generate_qr_code">Generate QR-Code</string>
+</resources>

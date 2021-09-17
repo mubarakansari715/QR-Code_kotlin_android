@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GenerateQRcodeActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_20dp"
+        android:hint="@string/app_genrate"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_qrCode"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_qrCode_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_submit" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_qr_code"
+        android:layout_width="@dimen/_300dp"
+        android:layout_height="@dimen/_300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_bar_code"
+        android:layout_width="@dimen/_300dp"
+        android:layout_height="@dimen/_120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+</LinearLayout>
